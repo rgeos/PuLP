@@ -4,9 +4,9 @@ needed in order to win the elections.
 The application is build with Flask and it used PuLP library for optimization.
 
 Requirements:
-- Flask
-- Flask_SQLalchemy
-- PuLP
+- Flask (http://flask.pocoo.org/)
+- Flask_SQLalchemy (http://flask-sqlalchemy.pocoo.org)
+- PuLP (https://github.com/coin-or/pulp)
 - Python 3.6 or above
 
 How to use:
