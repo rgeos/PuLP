@@ -4,10 +4,10 @@ needed in order to win the elections.
 The application is build with Flask and it used PuLP library for optimization.
 
 Requirements:
-Flask
-Flask_SQLalchemy
-PuLP
-Python 3.6 or above
+- Flask
+- Flask_SQLalchemy
+- PuLP
+- Python 3.6 or above
 
 How to use:
 1. Download the repository locally `git clone git@github.com:rgeos/PuLP.git`
