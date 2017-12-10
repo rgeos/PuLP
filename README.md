@@ -12,6 +12,7 @@ Python libraries requirements:
 Linear Programming solvers requirements (at least one):  
 - CBC (https://projects.coin-or.org/Cbc)
 - GLPK (https://www.gnu.org/software/glpk/)
+- Other solvers https://en.wikipedia.org/wiki/Linear_programming#Solvers_and_scripting_(programming)_languages
 
 How to use:
 1. Download the repository locally `git clone git@github.com:rgeos/PuLP.git`
