@@ -3,11 +3,15 @@ needed in order to win the elections.
 
 The application is build with Flask and it used PuLP library for optimization.
 
-Requirements:
+Python libraries requirements:
 - Flask (http://flask.pocoo.org/)
 - Flask_SQLalchemy (http://flask-sqlalchemy.pocoo.org)
 - PuLP (https://github.com/coin-or/pulp)
 - Python 3.6 or above
+
+Linear Programming solvers requirements (at least one):  
+- CBC (https://projects.coin-or.org/Cbc)
+- GLPK (https://www.gnu.org/software/glpk/)
 
 How to use:
 1. Download the repository locally `git clone git@github.com:rgeos/PuLP.git`
@@ -20,4 +24,4 @@ API access points:
 2. `localhost:8001/opt2/0` - knapsack problem version 1
 3. `localhost:8001/opt2/1` - knapsack problem version 2
 
-For details on the above API access points check the blog at link #### (coming soon)
+For details on the above API access points check the blog at [this link](https://blog.epigno.systems/2017/12/10/operations-research-and-us-elections/).
